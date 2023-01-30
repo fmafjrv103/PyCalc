@@ -162,8 +162,8 @@ while exit is False:
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
-                out = numArray[0]-numArray[1]-numArray[2]# Output
-                print(numArray[0],s,numArray[1],s,numArray[2],e,out,"\n")# Printed Output
+                out = numArray[0] - numArray[1] - numArray[2]# Output
+                print(numArray[0], s, numArray[1], s, numArray[2], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -228,7 +228,7 @@ while exit is False:
                     numArray[index] = int(input(en))
                     index += 1
                 out = numArray[0] * numArray[1]# Output
-                print(numArray[0],m,numArray[1],e,out,"\n")# Printed Output
+                print(numArray[0], m, numArray[1], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -246,8 +246,8 @@ while exit is False:
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
-                out = numArray[0]*numArray[1]*numArray[2]# Output
-                print(numArray[0],m,numArray[1],m,numArray[2],e,out,"\n")# Printed Output
+                out = numArray[0] * numArray[1] * numArray[2]# Output
+                print(numArray[0], m, numArray[1], m, numArray[2], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -265,8 +265,8 @@ while exit is False:
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
-                out = numArray[0]*numArray[1]*numArray[2]*numArray[3]# Output
-                print(numArray[0],m,numArray[1],m,numArray[2],m,numArray[3],e,out,"\n")# Printed Output
+                out = numArray[0] * numArray[1] * numArray[2] * numArray[3]# Output
+                print(numArray[0], m, numArray[1], m, numArray[2], m, numArray[3], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -284,8 +284,8 @@ while exit is False:
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
-                out = numArray[0]*numArray[1]*numArray[2]*numArray[3]*numArray[4]# Output
-                print(numArray[0],m,numArray[1],m,numArray[2],m,numArray[3],m,numArray[4],e,out,"\n")# Printed Output
+                out = numArray[0] * numArray[1] * numArray[2] * numArray[3] * numArray[4]# Output
+                print(numArray[0], m, numArray[1], m, numArray[2], m, numArray[3], m, numArray[4], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -312,7 +312,7 @@ while exit is False:
                     numArray[index] = int(input(en))
                     index += 1
                 out = numArray[0] / numArray[1]# Output
-                print(numArray[0],d,numArray[1],e,out,"\n")# Printed Output
+                print(numArray[0], d, numArray[1], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -330,8 +330,8 @@ while exit is False:
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
-                out = numArray[0]/numArray[1]/numArray[2]# Output
-                print(numArray[0],d,numArray[1],d,numArray[2],e,out,"\n")# Printed Output
+                out = numArray[0] / numArray[1] / numArray[2]# Output
+                print(numArray[0], d, numArray[1], d, numArray[2], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -349,8 +349,8 @@ while exit is False:
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
-                out = numArray[0]/numArray[1]/numArray[2]/numArray[3]# Output
-                print(numArray[0],d,numArray[1],d,numArray[2],d,numArray[3],e,out,"\n")# Printed Output
+                out = numArray[0] / numArray[1] / numArray[2] / numArray[3]# Output
+                print(numArray[0], d, numArray[1], d, numArray[2], d, numArray[3], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -368,8 +368,8 @@ while exit is False:
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
-                out = numArray[0]/numArray[1]/numArray[2]/numArray[3]/numArray[4]# Output
-                print(numArray[0],d,numArray[1],d,numArray[2],d,numArray[3],d,numArray[4],e,out,"\n")# Printed Output
+                out = numArray[0] / numArray[1] / numArray[2] / numArray[3] / numArray[4]# Output
+                print(numArray[0], d, numArray[1], d, numArray[2], d, numArray[3], d, numArray[4], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
