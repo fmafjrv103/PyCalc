@@ -45,8 +45,8 @@ while exit is False:
     # Menu
     # Addition
     exit0 = False
-    while exit0 is False:
-        if selectItem == 1:
+    if selectItem == 1:
+        while exit0 is False:
             print("You picked Addition")
             amountNum = int(input(n))# Allows user to pick how many numbers they want to add(only up to 5)
             num = "You have ",amountNum," Numbers"# Constant for numbers
@@ -122,11 +122,13 @@ while exit is False:
                 print(error1)
 
 # Exit
-        elif selectItem == 7:
-                out1 = input(warn1)
-                if out1 == "y":
-                    exit = True
-                elif out1 == "n":
-                    break
-                else:
-                    print(error0)
+    elif selectItem == 7:
+        while exit0 is False:
+            out1 = input(warn1)
+            if out1 == "y":
+                exit0 = True
+                exit = True
+            elif out1 == "n":
+                break
+            else:
+                print(error0)
