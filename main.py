@@ -48,14 +48,13 @@ while exit is False:
     if selectItem == 1:
         while exit0 is False:
             print("You picked Addition")
-            amountNum = int(input(n))# Allows user to pick how many numbers they want to add(only up to 5)
-            num = "You have ",amountNum," Numbers"# Constant for numbers
+            amountNum = int(input(n))# Allows user to pick how many numbers they want to add(only up to 5)  
 
             # Adding of two intagers
             if amountNum == 2:
                 numArray = [0,0]# Array used to store numbers inputed by user
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -74,7 +73,7 @@ while exit is False:
             elif amountNum == 3:
                 numArray = [0,0,0]
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -93,7 +92,7 @@ while exit is False:
             elif amountNum == 4:
                 numArray = [0,0,0,0]
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -112,7 +111,7 @@ while exit is False:
             elif amountNum == 5:
                 numArray = [0,0,0,0,0]
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -139,7 +138,7 @@ while exit is False:
             if amountNum == 2:
                 numArray = [0,0]# Array used to store numbers inputed by user
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -158,7 +157,7 @@ while exit is False:
             elif amountNum == 3:
                 numArray = [0,0,0]
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -177,7 +176,7 @@ while exit is False:
             elif amountNum == 4:
                 numArray = [0,0,0,0]
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -196,7 +195,7 @@ while exit is False:
             elif amountNum == 5:
                 numArray = [0,0,0,0,0]
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -223,7 +222,7 @@ while exit is False:
             if amountNum == 2:
                 numArray = [0,0]# Array used to store numbers inputed by user
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -242,7 +241,7 @@ while exit is False:
             elif amountNum == 3:
                 numArray = [0,0,0]
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -261,7 +260,7 @@ while exit is False:
             elif amountNum == 4:
                 numArray = [0,0,0,0]
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -280,7 +279,7 @@ while exit is False:
             elif amountNum == 5:
                 numArray = [0,0,0,0,0]
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -307,7 +306,7 @@ while exit is False:
             if amountNum == 2:
                 numArray = [0,0]# Array used to store numbers inputed by user
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -326,7 +325,7 @@ while exit is False:
             elif amountNum == 3:
                 numArray = [0,0,0]
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -345,7 +344,7 @@ while exit is False:
             elif amountNum == 4:
                 numArray = [0,0,0,0]
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
@@ -364,7 +363,7 @@ while exit is False:
             elif amountNum == 5:
                 numArray = [0,0,0,0,0]
                 index = 0
-                print(num)
+                print(f"You have {amountNum} Numbers")
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
