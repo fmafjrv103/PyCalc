@@ -392,6 +392,13 @@ while exit is False:
             print("Made By: Fmafjrv103")
             print("   Github: https://github.com/fmafjrv103")
             print("Lisenced under: MIT")
+            out0 = input("Do you want to ext(y or n): ")
+            if out0 == "y":
+                exit0 = True
+            elif out0 == "n":
+                exit0 = False
+            else:
+                print(error0)
     # Exit
     elif selectItem == 7:
         while exit0 is False:
