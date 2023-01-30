@@ -8,3 +8,9 @@ I also want to see what you do so feel free to fork this repo and make it your o
 ## Options
 
 The options in this calculator are simple, but I do want to add  more as the reason of the other option
+
+The options included for now are:
+-Addition
+-Subtraction
+-Multiplication
+-Division
