@@ -134,7 +134,6 @@ while exit is False:
         while exit0 is False:
             print("You picked Subtraction")
             amountNum = int(input(n))# Allows user to pick how many numbers they want to add(only up to 5)
-            num = "You have ",amountNum," Numbers"# Constant for numbers
 
             # Subtracting of two intagers
             if amountNum == 2:
@@ -214,7 +213,90 @@ while exit is False:
             else:
                 print(error1)
 
-    
+    # Multipication
+    if selectItem == 3:
+        while exit0 is False:
+            print("You picked Multiplication")
+            amountNum = int(input(n))# Allows user to pick how many numbers they want to add(only up to 5)
+
+            # Multiplying of two intagers
+            if amountNum == 2:
+                numArray = [0,0]# Array used to store numbers inputed by user
+                index = 0
+                print(num)
+                while index < len(numArray):
+                    numArray[index] = int(input(en))
+                    index += 1
+                out = numArray[0] * numArray[1]# Output
+                print(numArray[0],m,numArray[1],e,out,"\n")# Printed Output
+                while exit0 is False:
+                    out0 = input(warn0)
+                    if out0 == "y":
+                        exit0 = True
+                    elif out0 == "n":
+                        break
+                    else:
+                        print(error0)
+
+            # Muliplying of three intagers
+            elif amountNum == 3:
+                numArray = [0,0,0]
+                index = 0
+                print(num)
+                while index < len(numArray):
+                    numArray[index] = int(input(en))
+                    index += 1
+                out = numArray[0]*numArray[1]*numArray[2]# Output
+                print(numArray[0],m,numArray[1],m,numArray[2],e,out,"\n")# Printed Output
+                while exit0 is False:
+                    out0 = input(warn0)
+                    if out0 == "y":
+                        exit0 = True
+                    elif out0 == "n":
+                        break
+                    else:
+                        print(error0)
+
+            # Multiplying of four intagers
+            elif amountNum == 4:
+                numArray = [0,0,0,0]
+                index = 0
+                print(num)
+                while index < len(numArray):
+                    numArray[index] = int(input(en))
+                    index += 1
+                out = numArray[0]*numArray[1]*numArray[2]*numArray[3]# Output
+                print(numArray[0],m,numArray[1],m,numArray[2],m,numArray[3],e,out,"\n")# Printed Output
+                while exit0 is False:
+                    out0 = input(warn0)
+                    if out0 == "y":
+                        exit0 = True
+                    elif out0 == "n":
+                        break
+                    else:
+                        print(error0)
+
+            # Multiplying of five intagers
+            elif amountNum == 5:
+                numArray = [0,0,0,0,0]
+                index = 0
+                print(num)
+                while index < len(numArray):
+                    numArray[index] = int(input(en))
+                    index += 1
+                out = numArray[0]*numArray[1]*numArray[2]*numArray[3]*numArray[4]# Output
+                print(numArray[0],m,numArray[1],m,numArray[2],m,numArray[3],m,numArray[4],e,out,"\n")# Printed Output
+                while exit0 is False:
+                    out0 = input(warn0)
+                    if out0 == "y":
+                        exit0 = True
+                    elif out0 == "n":
+                        break
+                    else:
+                        print(error0)
+            else:
+                print(error1)
+
     # Exit
     elif selectItem == 7:
         while exit0 is False:
