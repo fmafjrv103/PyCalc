@@ -60,7 +60,7 @@ while exit is False:
                     numArray[index] = int(input(en))
                     index += 1
                 out = numArray[0] + numArray[1]# Output
-                print(numArray[0],p,numArray[1],e,out,"\n")# Printed Output
+                print(numArray[0], p, numArray[1], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -78,8 +78,8 @@ while exit is False:
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
-                out = numArray[0]+numArray[1]+numArray[2]# Output
-                print(numArray[0],p,numArray[1],p,numArray[2],e,out,"\n")# Printed Output
+                out = numArray[0] + numArray[1] + numArray[2]# Output
+                print(numArray[0], p, numArray[1], p, numArray[2], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -97,10 +97,10 @@ while exit is False:
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
-                out = numArray[0]+numArray[1]+numArray[2]+numArray[3]# Output
-                print(numArray[0],p,numArray[1],p,numArray[2],p,numArray[3],e,out,"\n")# Printed Output
+                out = numArray[0] + numArray[1] + numArray[2] + numArray[3]# Output
+                print(numArray[0], p, numArray[1], p, numArray[2], p, numArray[3], e, out, "\n")# Printed Output
                 while exit0 is False:
-                    out0 = input(warn0)
+                    out0 = input(warn0) 
                     if out0 == "y":
                         exit0 = True
                     elif out0 == "n":
@@ -116,8 +116,8 @@ while exit is False:
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
-                out = numArray[0]+numArray[1]+numArray[2]+numArray[3]+numArray[4]# Output
-                print(numArray[0],p,numArray[1],p,numArray[2],p,numArray[3],p,numArray[4],e,out,"\n")# Printed Output
+                out = numArray[0] + numArray[1] + numArray[2] + numArray[3] + numArray[4]# Output
+                print(numArray[0], p, numArray[1], p, numArray[2], p, numArray[3], p, numArray[4], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -144,7 +144,7 @@ while exit is False:
                     numArray[index] = int(input(en))
                     index += 1
                 out = numArray[0] - numArray[1]# Output
-                print(numArray[0],s,numArray[1],e,out,"\n")# Printed Output
+                print(numArray[0], s, numArray[1], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -181,8 +181,8 @@ while exit is False:
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
-                out = numArray[0]-numArray[1]-numArray[2]-numArray[3]# Output
-                print(numArray[0],s,numArray[1],s,numArray[2],s,numArray[3],e,out,"\n")# Printed Output
+                out = numArray[0] - numArray[1] - numArray[2] - numArray[3]# Output
+                print(numArray[0], s, numArray[1], s, numArray[2], s, numArray[3], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
@@ -200,8 +200,8 @@ while exit is False:
                 while index < len(numArray):
                     numArray[index] = int(input(en))
                     index += 1
-                out = numArray[0]-numArray[1]-numArray[2]-numArray[3]-numArray[4]# Output
-                print(numArray[0],s,numArray[1],s,numArray[2],s,numArray[3],s,numArray[4],e,out,"\n")# Printed Output
+                out = numArray[0] - numArray[1] - numArray[2] - numArray[3] - numArray[4]# Output
+                print(numArray[0], s, numArray[1], s, numArray[2], s, numArray[3], s, numArray[4], e, out, "\n")# Printed Output
                 while exit0 is False:
                     out0 = input(warn0)
                     if out0 == "y":
