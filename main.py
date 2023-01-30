@@ -214,7 +214,7 @@ while exit is False:
                 print(error1)
 
     # Multipication
-    if selectItem == 3:
+    elif selectItem == 3:
         while exit0 is False:
             print("You picked Multiplication")
             amountNum = int(input(n))# Allows user to pick how many numbers they want to add(only up to 5)
@@ -298,7 +298,7 @@ while exit is False:
                 print(error1)
 
     # Division
-    if selectItem == 1:
+    elif selectItem == 4:
         while exit0 is False:
             print("You picked Division")
             amountNum = int(input(n))# Allows user to pick how many numbers they want to add(only up to 5)
@@ -381,6 +381,18 @@ while exit is False:
             else:
                 print(error1)
 
+    # Other
+    elif selectItem == 5:
+        while exit0 is False:
+            print("Scientific options will be coming sone as full version comes out")
+            exit0 = True
+
+    # Credits
+    elif selectItem == 6:
+        while exit0 is False:
+            print("Made By: Fmafjrv103")
+            print("   Github: https://github.com/fmafjrv103")
+            print("Lisenced under: MIT")
     # Exit
     elif selectItem == 7:
         while exit0 is False:
